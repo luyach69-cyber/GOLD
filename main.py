@@ -20,7 +20,7 @@ def main():
     
     # --- 這裡放入您的掃描與過濾邏輯 ---
     # 假設這一次掃描到了符合條件的標的：
-    found_signal = False  # 測試時可改為 True
+    found_signal = True  # 測試時可改為 True
     
     if found_signal:
         msg = "🚨 *【主升段即時快訊】*\n股票：2330 台積電\n現價：突破均價線並帶量大單敲進！"
